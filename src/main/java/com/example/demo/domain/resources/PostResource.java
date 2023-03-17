@@ -23,7 +23,7 @@ import com.example.demo.services.UserService;
 
 @RestController
 @RequestMapping(value ="/users")
-public class UserResource {
+public class PostResource {
 	
 	@Autowired
 	private UserService service;
