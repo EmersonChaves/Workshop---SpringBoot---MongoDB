@@ -1,6 +1,4 @@
-package resources.util;
-
-import java.net.URLDecoder;
+package com.example.demo.services.resources.util;
 
 public class URL {
 	
