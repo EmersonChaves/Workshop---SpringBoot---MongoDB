@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.Post;
 import com.example.demo.services.PostService;
-
-import resources.util.URL;
+import com.example.demo.services.resources.util.URL;
 
 @RestController
 @RequestMapping(value="/posts")
@@ -47,4 +46,6 @@ public class PostResource {
 		List<Post> list = service.fullSearch(text, min, max);
 		return ResponseEntity.ok().body(list);
 	}
+	
+	
 }
